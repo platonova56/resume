@@ -1,0 +1,18 @@
+ul#primary li
+{
+    display: block; /*преобразование в блочный элемент*/
+    float: right; /*преобразуем в плавающий объект*/
+    list-style-type: none;/*удаляем маркер*/
+    /*padding: 0 0.2% 0 2%; /*расстояние между маркерами*/
+   /* width: 5%;
+    height: 3%;*/
+    background: blueviolet;
+    border-bottom: 3px solid #887f6e;
+    margin: 0 0 0 1.5%;
+    text-align: center;
+}
+div.clear {
+    clear: both; /*отменить любое обтекание*/
+    height: 0;
+    overflow: hidden;
+}
